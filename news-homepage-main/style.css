@@ -1,0 +1,226 @@
+:root{
+--Off-white: hsl(36, 100%, 99%);
+--Grayishblue: hsl(233, 8%, 79%);
+--Darkgrayishblue: hsl(236, 13%, 42%);
+--Verydarkblue: hsl(240, 100%, 5%);
+--Softorange: hsl(35, 77%, 62%);
+--Softred: hsl(5, 85%, 63%);
+}
+body{
+    margin: 0;
+    padding:0rem 7rem;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* NAVBAR */
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+.bars{
+    display: none;
+}
+.image img{
+    width: 50px;
+}
+.elements ul{
+    display: flex;
+    list-style: none;   
+    gap: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+
+}   
+
+ul li a:hover{
+    color: hsl(5, 85%, 63%);
+    transition: .5s;
+}
+/* MAIN SECTION */
+
+
+.mobile-img{
+    display: none;
+}
+.btn:hover{
+    color: hsl(233, 8%, 79%);
+    background-color: hsl(240, 100%, 5%);
+    transform: translate(10deg,40px);
+    transition: .5s;
+}
+
+.first-section{
+    display: flex;
+    padding: 1rem 1rem;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    /* flex: 99; */
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+
+}
+.main-image img{
+    width: 100%;
+    object-fit: contain;
+
+}
+.main-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.main-heading .heading{
+    display: flex;
+}
+.heading h1{
+    font-size: 40px;
+    margin: 0;
+}
+.small-para-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis:50%;
+
+}
+.small-para-button p{
+    color: hsl(236, 13%, 42%);
+}
+
+.small-para-button button{
+    width: fit-content;
+    padding: .5rem 1.4rem;
+    border: none;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+}
+
+.right-side-main{
+    background-color: hsl(240, 100%, 5%);
+    
+}
+.right-side{
+    height: 450px;
+    padding: 1rem 1rem;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(35, 77%, 62%);
+    justify-content: space-between;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+hr{
+    width: 100%;
+    color: hsl(36, 100%, 99%);
+    opacity: .5;
+}
+.right-side h3{
+    color: hsl(36, 100%, 99%);
+}
+.right-para h3:hover{
+    color:hsl(35, 77%, 62%);
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.right-side p{
+    color: hsl(233, 8%, 79%);
+}
+
+.last-section{
+    padding-top: 2rem;
+}
+.cards{
+    display: flex;
+
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    width: 31%;
+    gap: 20px;
+}
+
+.card img{
+    width: 120px;
+    height: 170px;
+    object-fit: contain;
+}
+
+.card-right h1{
+    color: hsl(236, 13%, 42%);
+    opacity: .5;
+}
+.card-right h2{
+    font-size: 20px;
+    transition: .3s;
+}
+.card-right p{
+    color: hsl(236, 13%, 42%);
+}
+.card-right h2:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+
+}
+
+.hidden{
+    display: none;
+}
+
+@media  screen and (min-width:0px) and (max-width:991px) {
+    
+    body{
+        padding: 1rem 1rem;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-image .desktop-img{
+       display: none;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+   .left-side{
+    display: flex;
+    flex-direction: column;
+   }
+   .main-heading{
+    flex-direction: column;
+   }
+    .elements{
+        display: none;
+    }
+   .cards{
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+    .card{
+       width: 100%;
+    }
+    .bars{
+        display: flex;
+        cursor: pointer;
+
+    }
+   .mobile-img{
+    display: flex;
+   }
+}
