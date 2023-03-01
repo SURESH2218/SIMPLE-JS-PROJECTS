@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:ital,wght@0,300;1,100;1,400&family=Ubuntu:wght@300&display=swap');
+
+:root{
+     --White: hsl(30%, 50%, 100%);
+     --LightGrey: hsl(217, 12%, 63%);
+     --MediumGrey: hsl(216, 12%, 54%);
+     --DarkBlue: hsl(213, 19%, 18%);
+     --VeryDarkBlue: hsl(216, 12%, 8%);
+     --Orange: hsl(25, 97%, 53%);
+     --White: hsl(50%, 50%, 100%);
+}    
+
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 91.23vh;
+    font-family: 'Overpass';
+}
+
+.main{
+    font-family:'Overpass';
+    background-color: hsl(213, 19%, 18%);
+    padding: 1rem 1rem;
+    border-radius: 25px;
+    line-height: 1rem;
+    max-width: 300px;
+    /* display: none; */
+ 
+}
+.main2{
+    background-color:hsl(213, 19%, 18%);
+    text-align: center;
+    padding: 1rem 1rem;
+    border-radius: 25px;
+    max-width: 300px;
+}
+.hidden{
+    display: none;
+}
+
+.icon-star{
+    background-color:hsl(216, 12%, 8%);
+    padding: 1rem 1rem;
+    border-radius: 50%;
+}
+.main-heading{
+    font-size: 12px;
+    color: white;
+
+}
+.small-para{
+    font-size: 15px;
+    color: white;
+    opacity: .5;
+}
+
+.elements{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+li button{
+    border: none;
+    padding: .7rem 1rem;
+    border-radius: 50%;
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+
+}
+li button:focus{
+    background-color: gray;
+}
+
+.button{
+    padding-top: 1rem;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    padding-bottom: .8rem;
+}
+.button-one,.rate-again{
+    background-color: hsl(25, 97%, 53%);
+    padding: .7rem .5rem;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+.rate{
+    padding-right: 1rem;
+}
+
+li button:hover{
+    background-color:hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.button-one:focus{
+    background-color: white;
+    color: orange;
+}
+.photo img{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.selections{
+    background-color: aquamarine;
+    width: fit-content;
+    margin: auto;
+    padding: .3rem 1rem;
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%);
+}
+.thanks{
+    padding-top: 1.3rem;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.para{
+    color: white;
+    opacity: .5;
+    padding-bottom: 2rem;
+}
