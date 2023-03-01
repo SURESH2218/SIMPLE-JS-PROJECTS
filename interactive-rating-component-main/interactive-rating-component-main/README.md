@@ -1,7 +1,5 @@
 # Frontend Mentor - Interactive rating component
-
-![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
-
+![Screenshot (40)](https://user-images.githubusercontent.com/94789102/222104104-6b2c6e07-af49-4a38-b10a-7e11384eac44.png)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -23,4 +21,4 @@ Your users should be able to:
 
  🚀
 
-![Screenshot (40)](https://user-images.githubusercontent.com/94789102/222104104-6b2c6e07-af49-4a38-b10a-7e11384eac44.png)
+
