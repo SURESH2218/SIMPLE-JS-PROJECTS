@@ -1,5 +1,5 @@
 /*
-  Rock Paper Scissors SOLUTION 🚀🔥
+  Rock Paper Scissors EXERCISE 🚀🔥
   Concepts covered in this project
     👉 For loops
     👉 Dom Manipulation
